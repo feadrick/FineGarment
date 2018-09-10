@@ -16,7 +16,7 @@ Route::get('/', function () {
     $product=Product::all();
     return view('auth.login',['product'=>$product]);
 });
-
+Route::get('/addToChart',['as'=>"addToChart",'uses'=>"ProductController@addToChart"]);
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
