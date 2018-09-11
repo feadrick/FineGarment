@@ -12,6 +12,6 @@ class ProductController extends Controller
     }
 
     public function addToChart(){
-        return "hello";
+        return "add to chart";
     }
 }

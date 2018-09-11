@@ -73,7 +73,10 @@ a {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
-
+.cbr{
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
 a:hover, a:focus {
   color: #D10024;
   text-decoration: none;

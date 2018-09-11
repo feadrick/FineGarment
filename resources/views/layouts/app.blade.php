@@ -71,8 +71,7 @@
 						<div class="col-md-6">
 							<div class="header-search">
 								<form>
-									
-									<input class="searchbar input form-control col-md-5 col-lg-6" placeholder="Search here">
+									<input class="searchbar input form-control col-md-5 col-lg-6 cbr" placeholder="Search here" >
 									<button class="search-btn">Search</button>
 								</form>
 							</div>
